@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Teko', sans-serif;
+  }
+  
+  .head {
+    height: 50px;
+    background-color:#003747;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 25px;
+  }
+  
+  .town {
+    color: blue;
+  }
+  
+  .right_head ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  
+  }
+  
+  .right_head ul li {
+  
+  
+  
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  
+  li:hover {
+    background-color: #F4F2DE;
+  }
+  .d_flex{
+    display: flex;
+  }
+
+  .inimg{
+   height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .poing{
+    height: 35vh;
+    width: 60%;
+   
+    background-color: white;
+    position: absolute;
+ 
+ left: 20%;
+ bottom: -71px;
+  }
+  
+  .poin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+    padding-top: 30px;
+   
+  }
+  .button{
+    font-size: 20px;
+    padding: 15px;
+  
+  }
+  .button:hover{
+    background-color:rgb(40, 138, 219) ;
+    cursor: pointer;
+  }
+
+  .content{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    
+
+  }
+
+
+  .same{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+  }
+
+  .size{
+    font-size: 30px;
+  }
+
+  .more{
+    padding: 20px 40px;
+    border: 1px solid black ;
+  }
+  .more:hover{
+    background-color:rgb(40, 138, 219) ;
+    cursor: pointer;
+  }
+
+  .img2in{
+    height: 80vh;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f76402ce;
+    position: relative;
+    color: white;
+    
+
+  }
+  .same1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    position: absolute;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.276);
+   right: 25%;
+   text-align: center;
+  
+  
+
+  }
+  .inimg1{
+    height: 80vh;
+     width: 100%;
+     object-fit: cover;
+     position: relative;
+    
+   }
+
+   .item5{
+    height: 80vh;
+    
+
+   }
